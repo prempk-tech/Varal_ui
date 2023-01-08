@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+}
+
+.active {
+    padding: 20px 30px;
+    background-color: rgb(5, 129, 253);
+    color: white;
+}
+
+.learn {
+    color: blue;
+    text-align: left;
+}
+
+.box-content {
+    text-align: left;
+}
+
+h3 {
+    color: cornflowerblue;
+    margin: 20px 0;
+}
+
+.container-fluid {
+    width: 1200px;
+
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+ul li {
+    display: inline;
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+.search {
+    float: right;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    text-indent: 70px;
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    margin-top: 100px;
+
+
+
+}
+
+.card-left {
+    width: 50%;
+
+}
+
+.card-right {
+    width: 50%;
+}
+
+.card-right img {
+    width: 600px;
+    height: 550px;
+    background-color: blue;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.highlight {
+    text-decoration: underline;
+    text-decoration-color: orange;
+
+}
+
+#sec1 {
+    font-size: 25px;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+.btn button {
+    padding: 20px 30px;
+    margin: -3px;
+    border: 1px solid rgb(0, 126, 252);
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+.btn button:hover {
+    background-color: rgb(5, 129, 253);
+    color: white;
+}
+
+label {
+    color: dodgerblue;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec2 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: justify;
+    text-align-last: center;
+    opacity: 0.5;
+
+}
+
+h2 {
+
+    text-align: justify;
+    text-align-last: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.item {
+    gap: 20px;
+}
+
+.item h4 {
+    margin-bottom: 20px;
+}
+
+.item img {
+    margin-bottom: 20px;
+}
+
+.item a {
+    margin: 20px 0px;
+    text-decoration: none;
+    color: orange;
+}
+
+.item p {
+    margin-bottom: 20px;
+}
+
+.check {
+    color: dodgerblue;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.card1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.card2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.minicard {
+    width: 400px;
+    height: 600px;
+    border: 3px solid rgba(95, 95, 95, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+
+}
+
+.minicard p {
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 260px;
+
+}
+
+
+footer {
+    display: flex;
+    gap: 10px;
+}
+
+.quote {
+    text-decoration: none;
+    color: orange;
+    text-align: left;
+}
+
+.verticalLine {
+    border-left: thick solid #016FF9;
+    justify-content: left;
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    transition: width 2s;
+}
+
+.verticalLine:hover {
+    width: 300px;
+}
+
+.verticalLine2 {
+    border-left: thick solid #016FF9;
+    margin-left: -10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    transition: width 2s;
+}
+
+.verticalLine2:hover {
+    width: 300px;
+}
+
+.bottomline {
+    border-bottom: thick solid #016FF9;
+    width: 60px;
+}
+
+.wifiimg {
+    height: 30px;
+    width: 20px;
+}
+
+.wifiborder {
+    outline: 3px solid #016FF9;
+    outline-offset: 20px;
+    max-width: 10%;
+
+}
+
+.wifipos {
+    margin-left: 10px;
+}
+
+.wifipos:hover {
+    background-color: #016FF9;
+    width: 500px;
+    height: 100px;
+    color: white;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.content-pos {
+    margin-top: -70px;
+    margin-left: 100px;
+    text-align: left;
+    color: black;
+}
+
+.part {
+    text-align: left;
+    margin-left: -50px;
+}
+
+.contact {
+    margin-top: -150px;
+    margin-left: 100px;
+}
+
+.name-content {
+    margin-top: -100px;
+    color: black;
+    font-weight: 1000;
+}
+
+.sublist {
+    color: #888;
+    text-align: left;
+}
+
+.service {
+    margin-left: -330px;
+}
+
+.subcontent {
+    margin-left: 0;
+}
+
+.search {
+    padding-left: 10px;
+}
+
+.searchicon {
+    display: flex;
+    position: absolute;
+    left: 1210px;
+    top: 5200px;
+}
+.searchicon2{
+    position: absolute;
+    top: 0px;
+}
+
+.searchbar {
+    margin-top: -130px;
+    
+}
+.icons{
+    position: absolute;
+    top: 2000px;
+    left: -400px;
+}
+.foot-content{
+    color: #888;
+    position: absolute;
+    top: 5350px;
+    left: 500px;
+}
